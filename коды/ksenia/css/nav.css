@@ -1,0 +1,19 @@
+header{
+    margin-bottom: 5%;
+    background-color: #012060;
+    padding-bottom: 0.5%;
+    font-size: 2em;
+    letter-spacing: 3px;
+    text-transform:uppercase
+}
+nav{
+    margin-left: 28%;
+    background-color: #012060;
+}
+nav a{
+    margin-right: 10%;
+    color: #DAE3F4;
+}
+a{
+    text-decoration: none;
+}

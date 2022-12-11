@@ -1,0 +1,85 @@
+body, html{
+    margin: 0;
+}
+body{
+    background-color: #B5BACE;
+}
+#input{
+    margin-bottom: 1%;
+}
+input, main, form{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #012060;
+}
+input{
+    background-color: #DAE3F4;
+    box-shadow: 2px 2px 17px 1px rgb(34 60 80 / 20%);
+    border: black solid 1px;
+    position: relative;
+    left: 31.5%;
+    margin-right: 7%;
+    height: 30px;
+    width: 16%;
+    outline: none;
+}
+main{
+    background-color: #DAE3F4;
+    width: 50%;
+    left: 25%;
+    margin-top: 1%;
+    position: relative;
+    padding: 2%;
+    padding: 1% 1% 1% 1%;
+    box-shadow: 0px 0px 15px 2px rgb(34 60 80 / 20%);;
+}
+form{
+    width: 100%;
+}
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+#first{
+    border-bottom: 0;
+}
+#second tr td:first-child{
+    width: 38%;
+}
+#second tr td:nth-child(2){
+width: 13%;
+}
+.even{
+    background-color: #B5BACE;
+}
+.even td img{
+    background-color: #B5BACE;
+}
+#fixdiv{
+    background-color: #DAE3F4;
+    width: 14%;
+    position: relative;
+    left: 54.7%;
+    padding: 1%;
+    border: black solid 1px;
+    display: none;
+}
+#fix{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+}
+#fix input{
+    left:0;
+    margin-bottom: 4%;
+    background-color: white;
+}
+#fix input[type='text'], #fix input[type='number']{
+    width: 98%;
+}
+#fix input[type='submit']{
+    width: 55%;
+    left: 22%;
+    margin-bottom: 0%;
+}
